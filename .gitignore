@@ -148,4 +148,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+**/migrations/
 .env
