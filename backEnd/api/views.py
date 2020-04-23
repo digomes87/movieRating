@@ -4,8 +4,8 @@ from rest_framework.decorators import action
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from django.contrib.auth.models import User
-from .models import Movie, Rating
-from .serializers import MovieSerializer, RatingSerializer, UserSerializer
+from api.models import Movie, Rating
+from api.serializers import MovieSerializer, RatingSerializer, UserSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
